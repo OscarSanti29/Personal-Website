@@ -1,0 +1,75 @@
+nav{
+    border-style: solid;
+    border-width: thick;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h1{
+    margin:30px 30px 30px 30px
+}
+#links{
+    margin: 30px 30px 30px 30px;
+}
+a{
+    color:black;
+    margin:0 5px;
+    font-size:x-large;
+}
+.quote{
+    margin:30px 30px 30px 30px;
+    text-align: center;
+    font-style: italic;
+    font-family:'Times New Roman', Times, serif;
+}
+main{
+    border-style: solid;
+    border-width: thick;
+    background-color: cadetblue;
+    margin: 10px 10px 10px 10px;
+    min-height: 1000px;  
+}
+main > img{ 
+    height:400px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.p{
+    font-size: xx-large;
+    font-style:oblique;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    font-size: xx-large;
+}
+.gym{
+    height: 300px;
+
+}
+.record{
+    text-align: right;
+
+}
+.vinyl{
+    height:200px;
+    
+}
+.garden{
+    height:200px;
+}
+.container{
+display:flex;
+}
+.zoo{
+    height:200px;
+}
+.list{
+    height:200px;
+}
+.vault{
+    height:200px;
+}
