@@ -10,12 +10,15 @@ h1{
     margin:30px 30px 30px 30px
 }
 #links{
-    margin: 30px 30px 30px 30px;
+    margin: 30px 10px 10px 10px;
+}
+#links:hover{
+    color:blue;
 }
 a{
     color:black;
     margin:0 5px;
-    font-size:x-large;
+    font-size:25px;
 }
 .quote{
     margin:30px 30px 30px 30px;
@@ -72,4 +75,45 @@ display:flex;
 }
 .vault{
     height:200px;
+}
+#form{
+    font-size:50px;
+    margin:100px 200px auto;
+    position:relative
+}
+input{
+    height:2rem;
+    width:40rem
+}
+#submit{
+    width:10%;
+    font-size:20px
+}
+textarea{
+    width:40rem;
+    font-size: 12px;
+}
+.project:hover{
+    color:blue;
+}
+@media screen and (max-width:700px){
+    .container{
+        display:flex;
+        flex-direction:column;
+    }
+    a{
+        font-size:1.15em;
+    }
+    h1{
+        font-size:1.15em;
+    }
+    #submit{
+        width:5em;
+    }
+    textarea{
+        width:25em
+    }
+    input{
+    width:23em
+    }
 }
